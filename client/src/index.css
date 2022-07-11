@@ -7,7 +7,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.site-container{
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}
+
+.btn-primary{
+  background-color: aliceblue;
+  color: #2d0404;
+
+}
+
+.rating span{
+  color: yellow;
+}
+
+.product{
+  border: 1px #2d0404 solid;
+  margin: 1rem;
+}
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img-large{
+  max-width: 100%;
+}
+
+.product img{
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-info{
+  padding: 1rem;
 }
